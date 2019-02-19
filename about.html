@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Dev_Ops</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">photo<span class="logo_colour">_vibrant</span></a></h1>
+          <h2>Simple. Contemporary. Website Template.</h2>
+        </div>
+        <p style="float: right;"><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
+      </div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="selected"><a href="about.html">About Me</a></li>
+          <li><a href="portfolio.html">My Portfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#">Example Drop Down</a>
+            <ul>
+              <li><a href="#">Drop Down One</a></li>
+              <li><a href="#">Drop Down Two</a>
+                <ul>
+                  <li><a href="#">Sub Drop Down One</a></li>
+                  <li><a href="#">Sub Drop Down Two</a></li>
+                  <li><a href="#">Sub Drop Down Three</a></li>
+                  <li><a href="#">Sub Drop Down Four</a></li>
+                  <li><a href="#">Sub Drop Down Five</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down Three</a></li>
+              <li><a href="#">Drop Down Four</a></li>
+              <li><a href="#">Drop Down Five</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.php">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="gallery">
+          <ul class="images">
+            <li class="show"><img width="450" height="450" src="images/1.jpg" alt="photo_one" /></li>
+            <li><img width="450" height="450" src="images/2.jpg" alt="photo_two" /></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        <h1>About Me</h1>
+        <p>We have build a simple architechture usingh AWS cloud and created a CI CD pipeline using Jenkins .</p>
+        <p>Amazon Web Services (AWS) is a comprehensive, evolving cloud computing platform provided by Amazon. It provides a mix of infrastructure as a service (IaaS), platform as a service (PaaS) and packaged software as a service (SaaS) offerings.</p>
+		<p>Jenkins is an open source automation tool written in Java with plugins built for Continuous Integration purpose. ... Jenkins achieves Continuous Integration with the help of plugins. Plugins allows the integration of Various DevOps stages.</p>
+		<p>The purpose of Git is to manage a project, or a set of files, as they change over time. Git stores this information in a data structure called a repository. A git repository contains, among other things, the following: A set of commit objects.</p>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright &copy; photo_vibrant | <a href="http://fotogrph.com">Images</a> | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
